@@ -31,7 +31,7 @@ export default function SignUp() {
     // Signed up 
     const user = userCredential.user;
     console.log(user);
-    // ...
+    // ...Test
   })
   .catch((error) => {
     const errorCode = error.code;
